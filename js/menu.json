@@ -1,0 +1,55 @@
+{
+"Category": {
+"Sorted_Starters": [
+{"veg": true,"Menu":"Hara Bhara Kebab","Description":"","Spice":"","Compliments":"Served with Humus & Chutney","Price":"169","Image":"harabharakebab"},
+{"veg": true,"Menu":"Makhmali Paneer Kebab","Description":"(Contains 4 generous pieces of Crème Paneer)","Spice":"Y","Compliments":"Served with Humus & Chutney","Price":"199","Image":"makhmalipaneerkebab"},
+{"Menu":"Murgh Reshmi Kebab","Description":"(Contains 6 generous pieces of Boneless Chicken)","Spice":"","Compliments":"Served with Humus & Chutney","Price":"249","Image":"murghreshmikebab"},
+{"Menu":"Cheesy Sunehra Kebab","Description":"(Contains 6 generous pieces of Boneless Chicken)","Spice":"","Compliments":"Served with Humus & Chutney","Price":"329","Image":"cheesysunehrakebab"},
+{"Menu":"Mahi Mirch Kebab (Vetki)","Description":"(Contains 4 generous pieces of Vetki Fish)","Spice":"Y","Compliments":"Served with Humus & Chutney","Price":"399","Image":"mahimirchkebab(vetki)"},
+{"Menu":"Mahi Achari Kebab (Basa)","Description":"(Contains 4 generous pieces of Basa Fish)","Spice":"Y","Compliments":"Served with Humus & Chutney","Price":"289","Image":"mahiacharikebab(basa)"},
+{"Menu":"Murgh Tandoori (Half)","Description":"","Spice":"","Compliments":"Served with Humus & Chutney","Price":"259","Image":"murghtandoori(half)"},
+{"Menu":"Murgh Tandoori (Full)","Description":"","Spice":"","Compliments":"Served with Humus & Chutney","Price":"359","Image":"murghtandoori(full)"},
+{"Menu":"Gosht Sheek Kebab","Description":"","Spice":"Y","Compliments":"Served with Humus & Chutney","Price":"289","Image":"goshtsheekkebab"},
+{"Menu":"Nawabi Kebab Platter","Description":"(Contains 2 pieces of Tengri, 3 pieces of Hariyali Kebab and 3 pieces of Reshmi Kebab)","Spice":"","Compliments":"Served with Humus & Chutney","Price":"299","Image":"nawabikebabplatter"},
+{"Menu":"Murgh Hariyali Kebab","Description":"(Contains 6 generous pieces of Boneless Chicken)","Spice":"","Compliments":"Served with Humus & Chutney","Price":"259","Image":"murghhariyalikebab"},
+{"Menu":"Murgh Tikka Kebab","Description":"(Contains 6 generous pieces of Boneless Chicken)","Spice":"","Compliments":"Served with Humus & Chutney","Price":"249","Image":"murghtikkakebab"},
+],
+"Shades_of_Biryani": [
+{"veg": true,"Menu":"Subzi Tahiri","Description":"","Spice":"","Compliments":"Served with Raita & Salad","Price":"169","Image":"subzitahiri"},
+{"veg": true,"Menu":"Paneer Dum Biryani","Description":"","Spice":"","Compliments":"Served with Raita & Salad","Price":"179","Image":"paneerdumbiryani"},
+{"Menu":"Murgh Dum Biryani","Description":"(Contains 1 big piece of Chicken along with 1 potato and 1 egg)","Spice":"","Compliments":"Served with Raita & Salad","Price":"189","Image":"murghdumbiryani"},
+{"Menu":"Gosht Dum Biryani","Description":"(Contains 1 big piece of Mutton along with 1 potato and 1 egg)","Spice":"","Compliments":"Served with Raita & Salad","Price":"239","Image":"goshtdumbiryani"},
+{"Menu":"Sultani Murgh Biryani","Description":"(Contains 2 big pieces of Chicken along with 2 potatos and 2 eggs, served in earthen haandi - Sufficient for two)","Spice":"","Compliments":"Served with Raita & Salad","Price":"349","Image":"sultanimurghbiryani"},
+{"Menu":"Sultani Gosht Biryani","Description":"(Contains 2 big pieces of Mutton along with 2 potatos and 2 eggs, served in earthen haandi - Sufficient for two)","Spice":"","Compliments":"Served with Raita & Salad","Price":"449","Image":"suntanigoshtbiryani"},
+{"Menu":"Jhinga Biryani","Description":"(Contains 2 generous pieces of Golda Prawn along with 1 potato and 1 egg)","Spice":"","Compliments":"Served with Raita & Salad","Price":"319","Image":"jhingabiryani"},
+{"Menu":"Boti Biryani","Description":"(Contains full plate Gosht Sheek Kebab along with 1 potato)","Spice":"","Compliments":"Served with Raita & Salad","Price":"259","Image":"botibiryani"},
+{"Menu":"Mirch-da-Gosht Biryani","Description":"(Contains 1 big piece of Mutton along with 1 egg)","Spice":"Y","Compliments":"Served with Raita & Salad","Price":"249","Image":"mirch-da-goshtbiryani"},
+{"Menu":"Zaareen Shahi Biryani","Description":"(Contains 1 big piece of Chicken along with 2 Mutton meat balls, 1 potato and 1 egg)","Spice":"","Compliments":"Served with Raita & Salad","Price":"269","Image":"zaareenshahibiryani"},
+{"Menu":"Egg Biryani","Description":"(Contains 2 eggs)","Spice":"","Compliments":"Served with Raita & Salad","Price":"159","Image":"eggbiryani"},
+],
+"Perfect_Salans": [
+{"veg": true,"Menu":"Nargisi Kofta","Description":"(White gravy with 4 pieces of big size koftas)","Spice":"","Compliments":"","Price":"229","Image":"nargisikofta"},
+{"veg": true,"Menu":"Makhan Subziwala","Description":"","Spice":"","Compliments":"","Price":"199","Image":"makhansubziwala"},
+{"veg": true,"Menu":"Shahi Paneer Masala","Description":"","Spice":"","Compliments":"","Price":"219","Image":"shahipaneermasala"},
+{"Menu":"Gosht Lahori","Description":"(Contains Mutton Keema and 4 generous pieces of Mutton)","Spice":"Y","Compliments":"","Price":"349","Image":"goshtlahori"},
+{"Menu":"Sultani Bhuna Gosht","Description":"(Contains 4 generous pieces of Mutton)","Spice":"Y","Compliments":"","Price":"329","Image":"sultanibhunagosht"},
+{"Menu":"Mughlai Murgh Changezi","Description":"(Contains 6 generous pieces of Boneless Chicken)","Spice":"","Compliments":"","Price":"249","Image":"mughlaimurghchangezi"},
+{"Menu":"Murgh Tikka Lababdar","Description":"(Contains 6 generous pieces of Boneless Chicken)","Spice":"Y","Compliments":"","Price":"269","Image":"murghtikkalababdar"},
+{"Menu":"Kadai Handi Murgh","Description":"(Contains 5 generous pieces of Chicken with bone)","Spice":"","Compliments":"","Price":"219","Image":"kadaihandimurgh"},
+{"Menu":"Murgh Bharta","Description":"(Contains shredded Chicken pieces)","Spice":"","Compliments":"","Price":"219","Image":"murghbharta"},
+{"Menu":"Murgh Reshmi Masala","Description":"(Contains 6 generous pieces of Boneless Chicken)","Spice":"","Compliments":"","Price":"289","Image":"murghreshmimasala"},
+{"Menu":"Mahi Begum Bahar (Basa)","Description":"(Contains 4 generous pieces of Basa Fish)","Spice":"","Compliments":"","Price":"289","Image":"mahibegumbahar(basa)"},
+{"Menu":"Mahi Tikka Masala (Vetki)","Description":"(Contains 4 generous pieces of Vetki Fish)","Spice":"Y","Compliments":"","Price":"399","Image":"mahitikkamasala(vetki)"},
+],
+"Butterly_Breads": [
+{"veg": true,"Menu":"Plain Naan","Description":"","Spice":"","Compliments":"","Price":"39","Image":"plainnaan"},
+{"veg": true,"Menu":"Butter Naan","Description":"","Spice":"","Compliments":"","Price":"49","Image":"butternaan"},
+{"veg": true,"Menu":"Masala Naan","Description":"","Spice":"","Compliments":"","Price":"79","Image":"masalanaan"},
+{"Menu":"Lasooni Naan","Description":"","Spice":"","Compliments":"","Price":"69","Image":"lasooninaan"},
+{"Menu":"Gosht Keema Naan","Description":"","Spice":"","Compliments":"","Price":"129","Image":"goshtkeemanaan"},
+],
+"Daring_Desserts": [
+{"Menu":"Shahi Firni","Description":"","Spice":"","Compliments":"","Price":"49","Image":"shahifirni"}
+]
+}
+}

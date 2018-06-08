@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="zaareenApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Zaareen, The different shades of flavour">
+    <meta name="keywords" content="Biryani, indian food, eating, new online delivery, order online">
+    <meta name="google-site-verification" content="TVC0j9Omxm4BQHPOLe0kpYXO4K4fGmKz6oXfL4bQ3JQ" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zaareen</title>
+    <meta name="description" content="Zaareen, The different shades of flavour">
+    <meta name="keywords" content="Biryani, indian food, eating, new online delivery, order online, Biryani near kestopur, Biriyani, Best Biryani, What to eat, Biryani near me, New resturant, free delivery, Good Kebabs, Good Kabab, Salan, Perfect Salan, 100% genuine meat, Healty food, Healthy Biryani, Zareen,">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Pinyon+Script" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+	<link rel="stylesheet" href="css/modal.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114374466-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114374466-1');
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '214319012502425');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=214319012502425&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution="setup_tool"
+  page_id="1723098297751053"
+  theme_color="#ff7e29"
+  logged_in_greeting="Hi! What would you like to order today?"
+  logged_out_greeting="Hi! What would you like to order today?">
+</div>
+  </head>
+  <body>
+    <script>
+      fbq('track', 'Lead');
+      fbq('track', 'Search');
+      fbq('track', 'ViewContent');
+
+    </script>
+    
+    <!-- Fixed navbar -->
+    <a href="http://orders.zaareen.com"><button id="myBtn" title="OrderNow">Order Now</button></a>
+    <nav class="navbar navbar-default navbar-fixed-top probootstrap-navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" title="uiCookies:FineOak">FineOak</a>
+        </div>
+
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#" data-nav-section="welcome">Welcome</a></li>
+            <li><a href="#" data-nav-section="specialties">Specialties</a></li>
+            <li><a href="#" data-nav-section="menu">Menu</a></li>
+            <li><a href="#" data-nav-section="reservation">Service</a></li>
+            <!-- <li><a href="#" data-nav-section="events">Order</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="flexslider" data-section="welcome">
+      <ul class="slides">
+        <li style="background-image: url(img/images/slide1.png)" class="overlay" data-stellar-background-ratio="0.5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-4">
+                <div class="probootstrap-slider-text text-center probootstrap-animate probootstrap-heading">
+                  <h1 class="primary-heading">Experience</h1>
+                  <h3 class="secondary-heading line">The Different Shades of flavour</h3>
+                  <p class="sub-heading">Experience food at your ease</a></p>
+                  <div class="order-section">
+                      <h4 style="
+                          color: #ccc;
+                      ">For order:</h4>
+                                          <p style="
+                          font-size: 35px;
+                          font-style: italic;
+                          font-weight: bold;
+                          color: #fff;
+                      "><i class="icon-phone" style="
+                                            font-size: 30px;
+                                            display: inline-block;
+                                            transform: rotate(90deg);
+                                            /* border: 1px solid #fff; */
+                                            color: #f4a23c;
+                                        "></i>+91 8588845455</p>
+                      <p></p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li style="background-image: url(img/images/slide2.png)" class="overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-4">
+                <div class="probootstrap-slider-text text-center probootstrap-animate probootstrap-heading">
+                  <h1 class="primary-heading">Dine</h1>
+                  <h3 class="secondary-heading">With Us</h3>
+                  <p class="sub-heading">An innovative packaging that will make your lunch or dinner full of fun</p>
+                  <div class="order-section">
+                      <h4 style="
+                          color: #ccc;
+                      ">For order:</h4>
+                                          <p style="
+                          font-size: 35px;
+                          font-style: italic;
+                          font-weight: bold;
+                          color: #fff;
+                      "><i class="icon-phone" style="
+                                            font-size: 30px;
+                                            display: inline-block;
+                                            transform: rotate(90deg);
+                                            /* border: 1px solid #fff; */
+                                            color: #f4a23c;
+                                        "></i>+91 8588845455</p>
+                      <p></p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </li>
+        <li style="background-image: url(img/images/slide3.png)" class="overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-4">
+                <div class="probootstrap-slider-text text-center probootstrap-animate probootstrap-heading">
+                  <h1 class="primary-heading">Enjoy</h1>
+                  <h3 class="secondary-heading">With Us</h3>
+                  <p class="sub-heading">Try it and fall in love with our delicacies</p>
+                  <div class="order-section">
+                      <h4 style="
+                        color: #ccc;
+                    ">For order:</h4>
+                                        <p style="
+                        font-size: 35px;
+                        font-style: italic;
+                        font-weight: bold;
+                        color: #fff;
+                    "><i class="icon-phone" style="
+                                          font-size: 30px;
+                                          display: inline-block;
+                                          transform: rotate(90deg);
+                                          /* border: 1px solid #fff; */
+                                          color: #f4a23c;
+                                      "></i>+91 8588845455</p>
+                                        <p></p>
+                                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      
+    </section>
+    <!-- <div class="ribbon">
+        CSS Animated Ribbon
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+      </div> -->
+
+    <section class="probootstrap-section probootstrap-bg-white">
+      <div class="container">
+        <div class="row">
+            
+          <div class="col-md-5 text-center probootstrap-animate">
+            <div class="probootstrap-heading dark">
+              <h1 class="primary-heading">Discover</h1>
+              <h3 class="secondary-heading">The flavour</h3>
+              <span class="seperator">* * *</span>
+            </div>
+            <p>Zaareen means "Golden" and the colour in our exquisite delicacies comes from the pure "Saffron" that we use.</p>
+            <p>We offer food that is robust, honest and full of flavour in different and unique Mughlai Cuisine with East Indian influence that you ought to try out and fall in love with.</p>
+            <!-- <p><a href="#" class="probootstrap-custom-link">About Us</a></p> -->
+          </div>
+          <div class="col-md-6 col-md-push-1 probootstrap-animate">
+            <p><img src="img/images/cheff.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></p>
+          </div>
+        </div>
+        <!-- END row -->
+      </div>
+    </section>
+
+    <section class="probootstrap-section-bg overlay" style="background-image: url(img/images/spices.jpg);" data-stellar-background-ratio="0.5" data-section="specialties">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center probootstrap-animate">
+            <div class="probootstrap-heading">
+              <h2 class="primary-heading">Discover</h2>
+              <h3 class="secondary-heading">Our Specialties</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- probootstrap-bg-white -->
+    <section class="probootstrap-section">
+      <div class="container">
+        <div class="row">
+          <div class="probootstrap-cell-retro">
+            <div class="half">
+
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background: url(img/images/promise.png) #f3db03 no-repeat center;background-size: contain;"></div>
+                <div class="text text-center">
+                  <h3>Our Promise</h3>
+                  <p>We promise to deliver and keep you healthy. No compromise with hygine and quality.</p>
+                 
+                </div>
+              </div>
+              <div class="probootstrap-cell reverse probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/images/dalda.jpg); background-size: cover;"></div>
+                <div class="text text-center">
+                  <h3>Dalda Free Cooking</h3>
+                  <p>Our delicacies are free from sticky and unhealthy Dalda usage.</p>
+                  
+                </div>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/images/cholesterol-free.jpg); background-size: contain;"></div>
+                <div class="text text-center">
+                  <h3>Cholesterol Free Oil</h3>
+                  <p>We cook in pure Cholesterol free oil. Which keeps your heart healthy.</p>
+          
+                </div>
+              </div>
+
+            </div>
+            <div class="half">
+
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/images/halal.jpg); background-size: contain;"></div>
+                <div class="text text-center">
+                  <h3>100% Halal Meat</h3>
+                  <p>Our meat is halal &amp; from authentic source, cleaned out properly.</p>
+                </div>
+              </div>
+              <div class="probootstrap-cell reverse probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/images/bhetki.jpg); background-size: cover;"></div>
+                <div class="text text-center">
+                  <h3>Pure Bhetki</h3>
+                  <p>Our fish is pure Bhetki and not any other breed.</p>
+                  
+                </div>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/images/ghee.png); background-size: cover;"></div>
+                <div class="text text-center">
+                  <h3>Pure Organic Ghee</h3>
+                  <p>Our ghee is pure and organically sourced.</p>
+                  
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="probootstrap-section-bg overlay" style="background-image: url(img/images/menu.jpg); background-size: cover;"  data-stellar-background-ratio="0.5"  data-section="menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center probootstrap-animate">
+            <div class="probootstrap-heading">
+              <h2 class="primary-heading">Discover</h2>
+              <h3 class="secondary-heading">Our Menu</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="probootstrap-section probootstrap-bg-white" ng-controller="menu">
+        <div class="container">
+		
+			<!--<div class="float"><a href="#"><img src="img/ordernow.png" width="60" height="60"\></a></div>		-->
+          <div class="row">
+              <div class="col-md-12 text-center probootstrap-animate">
+                <div class="probootstrap-heading">
+                  <h2 class="primary-heading">Sorted</h2>
+                  <h3 class="secondary-heading" style="color:#000;">Starters</h3>
+                </div>
+              </div>
+            <div class="col-md-6 col-md-offset-3">
+              <ul class="menus">
+                <li ng-repeat="item in menu.Category.Sorted_Starters">
+                    <span ng-show="item.veg"><i class="veg"></i></span>
+					
+                  <!-- <figure class="image"><img src="img/img_square_1.jpg" alt="Free Bootstrap Template by uicookies.com"></figure> -->
+                  <div class="text">
+                  <h3  style="font-weight:bold;">{{item.Menu}}<span class="spice" ng-show="item.Spice == 'Y'"><img src="img/images/chili.png" style="width: 22px;" alt=""></span></h3>
+                  <!--<a hidden href="img/menu/{{item.Image2}}" data-lightbox="{{item.Image1}}"></a>-->
+				  <!--<a hidden href="img/menu/{{item.Image3}}" data-lightbox="{{item.Image1}}"></a>-->
+                    <p>{{item.Description}}</p>
+                    <span class="price visible-xs" style="font-weight:bold;">&#8377;{{item.Price}}.00</span>
+                    <p class="compliment" style="margin-bottom:0px">Comes with Humus and green chutni.</p>
+					<div class="thumbnails">
+						<a href="img/menu/{{item.Image}}1.jpg" data-lightbox="{{item.Image}}"><img src="img/menuthumb/{{item.Image}}1tn.jpg" width="50" height="50"\></a>&nbsp;&nbsp;
+						<a href="img/menu/{{item.Image}}2.jpg" data-lightbox="{{item.Image}}"><img src="img/menuthumb/{{item.Image}}2tn.jpg" width="50" height="50"\></a>&nbsp;&nbsp;					
+						<a href="img/menu/{{item.Image}}3.jpg" data-lightbox="{{item.Image}}"><img src="img/menuthumb/{{item.Image}}3tn.jpg" width="50" height="50"\></a>					
+					</div>
+                    <span class="price hidden-xs" style="font-weight:bold;">&#8377;{{item.Price}}.00</span>
+					<br>
+                  </div>
+                </li>
+              </ul>
+            
+            </div>
+            
+          </div>
+        </div>
+      </section>
+    <section class="probootstrap-section probootstrap-bg-white" ng-controller="menu" style="background: #f5f5f5;">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center probootstrap-animate">
+              <div class="probootstrap-heading">
+                <h2 class="primary-heading">Shades</h2>
+                <h3 class="secondary-heading" style="color:#000;">Of Biryani</h3>
+              </div>
+            </div>
+          <div class="col-md-6 col-md-offset-3">
+            <ul class="menus">
+              <li ng-repeat="item in menu.Category.Shades_of_Biryani">
+                <!-- <figure class="image"><img src="img/img_square_1.jpg" alt="Free Bootstrap Template by uicookies.com"></figure> -->
+                <span ng-show="item.veg"><i class="veg"></i></span>
+					
+                  <!-- <figure class="image"><img src="img/img_square_1.jpg" alt="Free Bootstrap Template by uicookies.com"></figure> -->
+                  <div class="text">
+                  <h3  style="font-weight:bold;">{{item.Menu}}<span class="spice" ng-show="item.Spice == 'Y'"><img src="img/images/chili.png" style="width: 22px;" alt=""></span></h3>
+                  <!--<a hidden href="img/menu/{{item.Image2}}" data-lightbox="{{item.Image1}}"></a>-->
+				  <!--<a hidden href="img/menu/{{item.Image3}}" data-lightbox="{{item.Image1}}"></a>-->
+                    <p>{{item.Description}}</p>
+                    <span class="price visible-xs" style="font-weight:bold;">&#8377;{{item.Price}}.00</span>
+                    <p class="compliment" style="margin-bottom:0px">Comes with Raita and Salad.</p>
+					<div class="thumbnails">
+						<a href="img/menu/{{item.Image}}1.jpg" data-lightbox="{{item.Image}}"><img src="img/menuthumb/{{item.Image}}1tn.jpg" width="50" height="50"\></a>&nbsp;&nbsp;
+						<a href="img/menu/{{item.Image}}2.jpg" data-lightbox="{{item.Image}}"><img src="img/menuthumb/{{item.Image}}2tn.jpg" width="50" height="50"\></a>&nbsp;&nbsp;					
+						<a href="img/menu/{{item.Image}}3.jpg" data-lightbox="{{item.Image}}"><img src="img/menuthumb/{{item.Image}}3tn.jpg" width="50" height="50"\></a>					
+					</div>
+                    <span class="price hidden-xs" style="font-weight:bold;">&#8377;{{item.Price}}.00</span>
+                  </div>
+              </li>
+              <!--<li>
+                  <div class="probootstrap-heading text-center" style="
+                  font-size: 30px;
+              ">
+                                    <h2 class="primary-heading" style="
+                  font-size: 50px;
+                  border-bottom: 1px solid #ddd;
+                  margin-bottom: 16px;
+              ">Express</h2>
+                                    <h3 class="secondary-heading" style="color:#000;font-size: 26px;top: -38px;">Special Biryani</h3>
+                                  </div>
+              </li>-->
+              <!--<li ng-repeat="item in menu.Category.Specials">-->
+                  <!-- <figure class="image"><img src="img/img_square_1.jpg" alt="Free Bootstrap Template by uicookies.com"></figure> -->
+                  <!--<span ng-show="item.veg"><i class="veg"></i></span>
+                  <div class="text">
+                      <span class="price hidden-xs" style="font-weight:bold;">&#8377;{{item.Price}}.00</span>
+                    <h3  style="font-weight:bold;">{{item.Menu}} <span class="spice" ng-show="item.Spice == 'Y'"><img src="img/images/chili.png" style="width: 22px;" alt=""></span></h3>
+                    
+                    <p>{{item.Description}}</p>
+                    <span class="price visible-xs" style="font-weight:bold;">&#8377;{{item.Price}}.00</span>
+                  </div>
+                </li>-->
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <section class="probootstrap-section probootstrap-bg-white" ng-controller="menu" >
+        <div class="container">
+          <div class="row">
+              <div class="col-md-12 text-center probootstrap-animate">
+                <div class="probootstrap-heading">
+                  <h2 class="primary-heading">Perfect</h2>
+                  <h3 class="secondary-heading" style="color:#000;">Salans</h3>
+                </div>
+              </div>
+            <div class="col-md-6 col-md-offset-3">
+              <ul class="menus">
+                <li ng-repeat="item in menu.Category.Perfect_Salans">
+                    <span ng-show="item.veg"><i class="veg"></i></span>
+					
+                  <!-- <figure class="image"><img src="img/img_square_1.jpg" alt="Free Bootstrap Template by uicookies.com"></figure> -->
+                  <div class="text">
+                  <h3  style="font-weight:bold;">{{item.Menu}}<span class="spice" ng-show="item.Spice == 'Y'"><img src="img/images/chili.png" style="width: 22px;" alt=""></span></h3>
+                  <!--<a hidden href="img/menu/{{item.Image2}}" data-lightbox="{{item.Image1}}"></a>-->
+				  <!--<a hidden href="img/menu/{{item.Image3}}" data-lightbox="{{item.Image1}}"></a>-->
+                    <p>{{item.Description}}</p>
+                    <span class="price visible-xs" style="font-weight:bold;">&#8377;{{item.Price}}.00</span>
+                    <!--<p class="compliment" style="margin-bottom:0px">Comes with Humus and green chutni.</p>-->
+					<div class="thumbnails">
+						<a href="img/menu/{{item.Image}}1.jpg" data-lightbox="{{item.Image}}"><img src="img/menuthumb/{{item.Image}}1tn.jpg" width="50" height="50"\></a>&nbsp;&nbsp;
+						<a href="img/menu/{{item.Image}}2.jpg" data-lightbox="{{item.Image}}"><img src="img/menuthumb/{{item.Image}}2tn.jpg" width="50" height="50"\></a>&nbsp;&nbsp;					
+						<a href="img/menu/{{item.Image}}3.jpg" data-lightbox="{{item.Image}}"><img src="img/menuthumb/{{item.Image}}3tn.jpg" width="50" height="50"\></a>					
+					</div>
+                    <span class="price hidden-xs" style="font-weight:bold;">&#8377;{{item.Price}}.00</span>
+                  </div>
+                </li>
+            
+              </ul>
+            
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      
+        <section class="probootstrap-section probootstrap-bg-white" ng-controller="menu" style="background: #f5f5f5;">
+            <div class="container">
+              <div class="row">
+                  <div class="col-md-12 text-center probootstrap-animate">
+                    <div class="probootstrap-heading">
+                      <h2 class="primary-heading">Butterly</h2>
+                      <h3 class="secondary-heading" style="color:#000;">Breads</h3>
+                    </div>
+                  </div>
+                <div class="col-md-6 col-md-offset-3">
+                  <ul class="menus">
+                    <li ng-repeat="item in menu.Category.Butterly_Breads">
+					
+                  <!-- <figure class="image"><img src="img/img_square_1.jpg" alt="Free Bootstrap Template by uicookies.com"></figure> -->
+                  <div class="text">
+                  <h3  style="font-weight:bold;">{{item.Menu}}<span class="spice" ng-show="item.Spice == 'Y'"><img src="img/images/chili.png" style="width: 22px;" alt=""></span></h3>
+                  <!--<a hidden href="img/menu/{{item.Image2}}" data-lightbox="{{item.Image1}}"></a>-->
+				  <!--<a hidden href="img/menu/{{item.Image3}}" data-lightbox="{{item.Image1}}"></a>-->
+                    <p>{{item.Description}}</p>
+                    <span class="price visible-xs" style="font-weight:bold;">&#8377;{{item.Price}}.00</span>
+                    <!--<p class="compliment" style="margin-bottom:0px">Comes with Hamas and green chutni.</p>-->
+					<div class="thumbnails">
+						<a href="img/menu/{{item.Image}}1.jpg" data-lightbox="{{item.Image}}"><img src="img/menuthumb/{{item.Image}}1tn.jpg" width="50" height="50"\></a>&nbsp;&nbsp;
+						<a href="img/menu/{{item.Image}}2.jpg" data-lightbox="{{item.Image}}"><img src="img/menuthumb/{{item.Image}}2tn.jpg" width="50" height="50"\></a>&nbsp;&nbsp;					
+						<a href="img/menu/{{item.Image}}3.jpg" data-lightbox="{{item.Image}}"><img src="img/menuthumb/{{item.Image}}3tn.jpg" width="50" height="50"\></a>					
+					</div>
+                    <span class="price hidden-xs" style="font-weight:bold;">&#8377;{{item.Price}}.00</span>
+                  </div>
+                    </li>
+                
+                  </ul>
+                
+                </div>
+                
+              </div>
+            </div>
+          </section>
+          <section class="probootstrap-section probootstrap-bg-white" ng-controller="menu">
+              <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center probootstrap-animate">
+                      <div class="probootstrap-heading">
+                        <h2 class="primary-heading">Daring</h2>
+                        <h3 class="secondary-heading" style="color:#000;">Desserts</h3>
+                      </div>
+                    </div>
+                  <div class="col-md-6 col-md-offset-3">
+                    <ul class="menus">
+                      <li ng-repeat="item in menu.Category.Daring_Desserts">
+					
+                  <!-- <figure class="image"><img src="img/img_square_1.jpg" alt="Free Bootstrap Template by uicookies.com"></figure> -->
+                  <div class="text">
+                  <h3  style="font-weight:bold;">{{item.Menu}}<span class="spice" ng-show="item.Spice == 'Y'"><img src="img/images/chili.png" style="width: 22px;" alt=""></span></h3>
+                  <!--<a hidden href="img/menu/{{item.Image2}}" data-lightbox="{{item.Image1}}"></a>-->
+				  <!--<a hidden href="img/menu/{{item.Image3}}" data-lightbox="{{item.Image1}}"></a>-->
+                    <p>{{item.Description}}</p>
+                    <span class="price visible-xs" style="font-weight:bold;">&#8377;{{item.Price}}.00</span>
+                    <!--<p class="compliment" style="margin-bottom:0px">Comes with Hamas and green chutni.</p>-->
+					<div class="thumbnails">
+						<a href="img/menu/{{item.Image}}1.jpg" data-lightbox="{{item.Image}}"><img src="img/menuthumb/{{item.Image}}1tn.jpg" width="50" height="50"\></a>&nbsp;&nbsp;
+						<a href="img/menu/{{item.Image}}2.jpg" data-lightbox="{{item.Image}}"><img src="img/menuthumb/{{item.Image}}2tn.jpg" width="50" height="50"\></a>&nbsp;&nbsp;					
+						<a href="img/menu/{{item.Image}}3.jpg" data-lightbox="{{item.Image}}"><img src="img/menuthumb/{{item.Image}}3tn.jpg" width="50" height="50"\></a>					
+					</div>
+                    <span class="price hidden-xs" style="font-weight:bold;">&#8377;{{item.Price}}.00</span>
+                  </div>
+                      </li>
+                  
+                    </ul>
+                  
+                  </div>
+                  
+                </div>
+              </div>
+            </section>
+    
+      <section class="probootstrap-section-bg overlay" style="background-image: url(img/images/maps.png);background-position: center;"  data-stellar-background-ratio="0.5" data-section="reservation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center probootstrap-animate">
+            <div class="probootstrap-heading">
+              <h2 class="primary-heading">Our Service</h2>
+              <h3 class="secondary-heading">Area and timing</h3>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="probootstrap-section probootstrap-bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 probootstrap-animate text-center">
+            <h3 class="secondary-heading" style="
+            /* letter-spacing: .05em; */
+            font-size: 30px;
+            font-weight: bold;
+        ">SERVICE AREA</h3>
+            <hr>
+            <h4 class="secondary-heading" style="
+            /* letter-spacing: .05em; */
+            font-size: 60px;
+            font-weight: bold;    color: #FFA33E; margin: 5px 0;
+        ">NEW TOWN - KESTOPUR - SECTOR-V</h4>
+        
+          </div>
+          <div class="col-md-12 probootstrap-animate text-center">
+            <h3 class="secondary-heading" style="
+            /* letter-spacing: .05em; */
+            font-size: 30px;
+            font-weight: bold;
+        ">HOURS OF OPERATION</h3>
+        <hr>
+        <h4 class="secondary-heading" style="
+            /* letter-spacing: .05em; */
+            font-size: 60px;
+            font-weight: bold;    color: #FFA33E; margin: 5px 0;
+        ">11AM to 10PM</h4>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+   <!--  <section class="probootstrap-section-bg overlay" style="background-image: url(img/hero_bg_4.jpg);"  data-stellar-background-ratio="0.5" data-section="events">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center probootstrap-animate">
+            <div class="probootstrap-heading">
+              <h2 class="primary-heading">Upcoming</h2>
+              <h3 class="secondary-heading">Our Events</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="probootstrap-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 probootstrap-animate">
+            <div class="probootstrap-block-image">
+              <figure><img src="img/img_square_2.jpg" alt="Free Bootstrap Template by uicookies.com"></figure>
+              <div class="text">
+                <span class="date">June 29, 2017</span>
+                <h3><a href="#">Laboriosam Quod Dignissimos</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                <p class=""><a href="#" class="probootstrap-custom-link link-sm">Read More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 probootstrap-animate">
+            <div class="probootstrap-block-image">
+              <figure><img src="img/img_square_3.jpg" alt="Free Bootstrap Template by uicookies.com"></figure>
+              <div class="text">
+                <span class="date">June 29, 2017</span>
+                <h3><a href="#">Laboriosam Quod Dignissimos</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                <p class=""><a href="#" class="probootstrap-custom-link link-sm">Read More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 probootstrap-animate">
+            <div class="probootstrap-block-image">
+              <figure><img src="img/img_square_4.jpg" alt="Free Bootstrap Template by uicookies.com"></figure>
+              <div class="text">
+                <span class="date">June 29, 2017</span>
+                <h3><a href="#">Laboriosam Quod Dignissimos</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                <p class=""><a href="#" class="probootstrap-custom-link link-sm">Read More</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="probootstrap-section probootstrap-bg-white" data-section="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 text-center probootstrap-animate">
+            <div class="probootstrap-heading dark">
+              <h1 class="primary-heading">Contact</h1>
+              <h3 class="secondary-heading">Let's Chat</h3>
+            </div>
+            <p>Voluptatibus quaerat laboriosam fugit non Ut consequatur animi est molestiae enim a voluptate totam natus modi debitis dicta impedit voluptatum quod sapiente illo saepe explicabo quisquam perferendis labore et illum suscipit</p>
+          </div>
+          <div class="col-md-6 col-md-push-1 probootstrap-animate">
+            <form method="post" class="probootstrap-form">
+              <div class="form-group">
+                <label for="c_name">Your Name</label>
+                <div class="form-field">
+                  <input type="text" id="c_name" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="c_email">Your Email</label>
+                <div class="form-field">
+                  <input type="text" id="c_email" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="c_message">Your Message</label>
+                <div class="form-field">
+                  <textarea name="c_message" id="c_message" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="submit" name="c_submit" id="c_submit" value="Send Message" class="btn btn-primary btn-lg">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>-->
+
+    <section class="probootstrap-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 probootstrap-animate">
+            <div class="probootstrap-footer-widget">
+              <h3>Service Area</h3>
+              <div class="row">
+                <div class="col-md-12">
+                  <p> Newtown, Kestopur, Salt Lake</p>
+                  
+                </div>
+                
+              </div>
+            </div>
+            <div class="probootstrap-footer-widget">
+                <h3>Follow us on:</h3>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p><a href="https://www.facebook.com/zaareenfood" style="line-height:35px;"><i class="icon-facebook" style="
+                      font-size: 35px;
+                      float: left;
+                      margin-right: 10px;
+                  "></i>Zaareenfood</a></p>
+                    
+                  </div>
+                  
+                </div>
+              </div>
+          </div>
+          <div class="col-md-4 probootstrap-animate">
+            <div class="probootstrap-footer-widget">
+              <h3>Open Hours</h3>
+              <div class="row">
+                <div class="col-md-12">
+                  <p>Monday - Sunday <br> 11:30am - 10:00pm</p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 probootstrap-animate">
+            <div class="probootstrap-footer-widget">
+              <h3>Available for Catering</h3>
+              <div class="row">
+                <div class="col-md-12">
+                  <p>Available for Catering <br> Email: relations@zaareen.com <br> Call Us: +91 9830817484</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section class="probootstrap-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <p class="copyright-text">&copy; 2018 <a href="http://zaareen.com/">Zaareen</a>. All Rights Reserved. </p>
+          </div>
+          <div class="col-md-4">
+            <!-- <ul class="probootstrap-footer-social right">
+              <li><a href="#"><i class="icon-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              <li><a href="#"><i class="icon-instagram"></i></a></li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+    </section>
+	
+  
+    <script src="js/scripts.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/app.js"></script>
+	<script src="js/lightbox.js"></script>
+  </body>
+</html>

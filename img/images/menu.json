@@ -1,0 +1,55 @@
+{
+"Category":{"Shades_of_Biryani":[
+		{"Menu":"Vegetable Tahri","Description":"Fresh vegetables, soya chunks and potato are prepared with an accurate blend of Indian spices and basmati rice cooked in Dum.","Spice":"","Compliments":"Served with raita and salad","Price":"165"},
+		{"Menu":"Paneer Dum Biryani","Description":"Cubes of paneer, potato and vegetables are prepared with Indian spices and basmati rice cooked in Dum.","Spice":"","Compliments":"Served with raita and salad","Price":"175"},
+		{"Menu":"Chicken Biryani","Description":"Two succulent pieces of chicken, one egg and potato prepared with blend of Indian spices layered with flavourful basmati rice and cooked in Dum.","Spice":"","Compliments":"Served with raita and salad","Price":"190"},
+		{"Menu":"Gosht Biryani","Description":"Two succulent pieces of mutton, one egg and potato prepared with blend of Indian spices layered with flavourful basmati rice and cooked in Dum.","Spice":"","Compliments":"Served with raita and salad","Price":"235"},
+		{"Menu":"Zaareen Pepper Gosht Biryani","Description":"One of Zaareen delicacies, a non-conventional biryani cooked on Dum with basmati rice, two succulent pieces of mutton and egg along with black pepper bringing in the right aroma and flavour.","Spice":"Y","Compliments":"Served with raita and salad","Price":"235"},
+		{"Menu":"Zaareen Boti Biryani","Description":"One of Zaareen delicacies, mutton sheek kebab prepared separately, and then cooked on Dum with basmati rice, potato imparting a tandoori aroma.","Spice":"","Compliments":"Served with raita and salad","Price":"245"},
+		{"Menu":"Zaareen Shahi Biryani","Description":"One of Zaareen delicacies, combining one succulent piece of chicken, two minced mutton balls, one egg and one potato prepared to with a blend of Indian spices layered with basmati rice cooked in Dum.","Spice":"","Compliments":"Served with raita and salad","Price":"255"},
+		{"Menu":"Zaareen Prawn Biryani","Description":"One of Zaareen delicacies for Fish Lovers, two big pieces of prawn (Golda Chingri) and potato, cooked on Dum with basmati rice soaked in prawn stock and Indian spices.","Spice":"","Compliments":"Served with raita and salad","Price":"290"},
+		{"Menu":"Zaareen Hilsa Biryani (Seasonal)","Description":"One of Zaareen delicacies for Fish Lovers, two big pieces of Hilsa (Ilish) cooked on Dum along with basmati rice and Indian spices bringing in a delectable symphony.","Spice":"","Compliments":"Served with raita and salad","Price":"360"}
+		],
+	    "Specials":[
+		{"Menu":"Chicken Biryani (Mini)","Description":"One succulent piece of chicken, and potato prepared to perfection with accurate blend of Indian spices layered with flavourful basmati rice.","Spice":"","Compliments":"","Price":"100"},
+		{"Menu":"Gosht Biryani (Mini)","Description":"One succulent piece of mutton, and potato prepared to perfection with accurate blend of Indian spices layered with flavourful basmati rice.","Spice":"","Compliments":"","Price":"125"}
+		],
+	     "Perfect Salans":[
+		{"Menu":"Shahi Paneer Masala","Description":"Cubes of paneer are simmered in a creamy, nutty and luscious white curry with mild and sweet undertones of whole spices and floral notes of saffron.","Spice":"","Compliments":"","Price":"180"},
+		{"Menu":"Nargisi Kofta","Description":"A south Asian and middle-eastern cuisine where pieces of koftas are prepared with vegetables and paneer, and served in spicy Indian gravy.","Spice":"","Compliments":"","Price":"180"},
+		{"Menu":"Gosht Yakhini","Description":"Pieces of mutton prepared in a curd-based white gravy (yakini) without turmeric or chilli powder and primarily flavoured with bay leaves, cloves and cardamom seeds.","Spice":"","Compliments":"","Price":"300"},
+		{"Menu":"Zaareen Laal Maas","Description":"One of Zaareen delicacies, pieces of mutton prepared in a sauce of yoghurt and hot spices, as red Kashmiri chilies.","Spice":"Y","Compliments":"","Price":"300"},
+		{"Menu":"Gosht Chaap","Description":"Multiple / Shredded pieces of mutton browned from being pan seared for hours and slathered with a sinfully oily nutty spicy and sticky gravy with faint flavors of Kewra.","Spice":"","Compliments":"","Price":"280"},
+		{"Menu":"Gosht Lahori","Description":"Made by stir frying cubes and minced mutton along with tomatoes, green chilies, ginger and garlic.","Spice":"Y","Compliments":"","Price":"330"},
+		{"Menu":"Zaareen Gosht Rogan Josh","Description":"An aromatic mutton dish of Persian origin prepared with pieces of mutton cooked in a gravy based of browned onions, yogurt and India spices.","Spice":"Y","Compliments":"","Price":"290"},
+		{"Menu":"Kadai Chicken","Description":"Chicken pieces are served in a thick gravy along with big chunky pieces of onion, capsicum and tomatoes.","Spice":"","Compliments":"","Price":"200"},
+		{"Menu":"Mughlai Chicken Changezi","Description":"A popular chicken delicacy in North India, is said to have its link with Chenghis Khan. Succulent pieces of chicken is cooked in a subtle gravy made with a handful of Indian spices.","Spice":"Y","Compliments":"","Price":"210"},
+		{"Menu":"Chicken Lababdar","Description":"Prepared with boneless chicken sauted and simmered in a semi-red gravy imparting the taste of Indian spices.","Spice":"","Compliments":"","Price":"210"},
+		{"Menu":"Chicken Chaap","Description":"Large pieces of chicken browned from being pan seared for hours and slathered with a sinfully oily nutty spicy sticky gravy with faint flavors of Kewra.","Spice":"","Compliments":"","Price":"190"},
+		{"Menu":"Zaareen Chicken Bharta","Description":"One of Zaareen delicacies, typically popular in roadside Dhabas, and made out of shredded chicken, we at Zaareen, add some extra flavours to that to make it specially suited for Kolkatans.","Spice":"Y","Compliments":"","Price":"175"}
+		],
+	     "Sorted Starters":[
+		{"Menu":"Makhmali Paneer Tikka kebab","Description":"An Indian dish made out of Indian Paneer marinated overnight in spices and grilled in tandoor.","Spice":"Y","Compliments":"Served with green chutney and hamas","Price":"190"},
+		{"Menu":"Hara Bhara Kebab","Description":"Vegetarian Kebabs prepared from potatoes and fresh spinach and grilled in tandoor.","Spice":"","Compliments":"Served with green chutney and hamas","Price":"170"},
+		{"Menu":"Zaareen Corn Seekh Kebab","Description":"One of Zaareen delicacies, mouth-watering sweet corn seekh kebabs brushed with warm butter while grilling, this is truly a tongue-thriller. ","Spice":"","Compliments":"Served with green chutney and hamas","Price":"175"},
+		{"Menu":"Gosht Seekh Kebab","Description":"A mughlai delicacy prepared with minced mutton, onions and blend of spices and grilled in tandoor.","Spice":"Y","Compliments":"Served with green chutney and hamas","Price":"280"},
+		{"Menu":"Gosht Burra Kebab","Description":"Mutton chops marinated, skewered, roasted and charred in the tandoor.","Spice":"","Compliments":"Served with green chutney and hamas","Price":"270"},
+		{"Menu":"Zaareen Junglee Maas","Description":"One of Zaareen delicacies, a famous Rajasthani dish customized to local flavour. Prepared with spicy and hot mutton baked with charcoal flavour. ","Spice":"Y","Compliments":"","Price":"280"},
+		{"Menu":"Chicken Reshmi Kebab","Description":"Boneless pieces of silky textured chicken, marinated in juicy mixture of curd, cream, cashew nuts and spices and then grilled in tandoor.","Spice":"","Compliments":"Served with green chutney and hamas","Price":"220"},
+		{"Menu":"Zaareen Cheesy Chicken Kebab","Description":"Boneless pieces of silky textured chicken, marinated in juicy mixture of curd, cream, cashew nuts and spices, layered with creamy cheese and then grilled in tandoor.","Spice":"","Compliments":"Served with green chutney and hamas","Price":"300"},
+		{"Menu":"Chicken Tandoori (Full)","Description":"Chicken marinated overnight in curd and spices and roasted in tandoor.","Spice":"Y","Compliments":"Served with green chutney and hamas","Price":"380"},
+		{"Menu":"Chicken Tandoori (Half)","Description":"Chicken marinated overnight in curd and spices and roasted in tandoor.","Spice":"Y","Compliments":"Served with green chutney and hamas","Price":"260"},
+		{"Menu":"Zaareen Vetki Tikka Kebab","Description":"Fresh vetki marinated overnight in curd, lemon and Indian spices and grilled in tandoor. ","Spice":"Y","Compliments":"Served with green chutney and hamas","Price":"380"},
+		{"Menu":"Pomfret Tandoori","Description":"Full size pomfret fish overnight in curd and spices and roasted in tandoor.","Spice":"Y","Compliments":"Served with green chutney and hamas","Price":"290"}
+		],
+	     "Butterly Breads":[
+		{"Menu":"Plain Naan","Description":"Amazingly soft and fluffy oven-baked flat bread.","Spice":"","Compliments":"","Price":"30"},
+		{"Menu":"Butter Naan","Description":"Amazingly soft and fluffy oven-baked flat bread with a layer of butter.","Spice":"","Compliments":"","Price":"40"},
+		{"Menu":"Masala Kulcha","Description":"Amazingly soft and fluffy oven-baked flat bread with a layer of butter and stuffed with cooked and minced vegetables.","Spice":"","Compliments":"","Price":"65"},
+		{"Menu":"Garlic Naan","Description":"Amazingly soft and fluffy oven-baked flat bread with a layer of garlic.","Spice":"","Compliments":"","Price":"60"}
+		],
+	     "Daring Desserts":[
+		{"Menu":"Shahi Firni","Description":"A sweet Indian dish made out of thickened milk, dried fruit and ground rice and refrigerated overnight","Spice":"","Compliments":"","Price":"50"}
+		]
+	}
+}
