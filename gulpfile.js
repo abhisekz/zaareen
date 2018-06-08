@@ -119,7 +119,7 @@ gulp.task('bs-reload', function () {
 gulp.task('browser-sync', function() {
     browserSync.init(['css/*.css', 'js/*.js'], {
         
-        proxy: 'localhost/probootstrap/resto'
+        proxy: 'localhost'
         /* For a static server you would use this: */
         /*
         server: {

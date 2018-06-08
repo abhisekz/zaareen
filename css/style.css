@@ -2371,6 +2371,8 @@ section[data-section="menu"] {
   margin-top: -20px;
 }
 
-.menuimage {
-	border-radius: 50%;
+@media (max-width: 767px) {
+  .modal-content {
+    margin-top: 25% !important;
+  }
 }
